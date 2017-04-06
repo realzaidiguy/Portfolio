@@ -13,5 +13,17 @@
 /*forcing narrower footer*/
 footer {
     height: 100px !important;
-    margin-top: 40px !important;
+    /*margin-top: 40px !important;*/
+}
+
+/*below body and wrapper mods are needed for sticky footer*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/*for sticky footer, the div right before the footer needs to have #wrapper id*/
+#wrapper {
+  flex: 1;
 }
