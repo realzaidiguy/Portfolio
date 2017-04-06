@@ -10,12 +10,6 @@
     color: #111111;
 }
 
-/*forcing narrower footer*/
-footer {
-    /*height: 100px !important;*/
-    /*margin-top: 40px !important;*/
-}
-
 /*below body and wrapper mods are needed for sticky footer*/
 body {
   display: flex;
