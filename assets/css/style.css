@@ -13,4 +13,5 @@
 /*forcing narrower footer*/
 footer {
     height: 100px !important;
+    margin-top: 40px !important;
 }
