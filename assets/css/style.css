@@ -1,1 +1,16 @@
 /*Template CSS*/
+
+/*custom class for footer links*/
+.customA {
+    color: #4a4a4a;
+}
+
+/*custom class for footer link hover color*/
+.customA:hover {
+    color: #111111;
+}
+
+/*forcing narrower footer*/
+footer {
+    height: 100px !important;
+}
