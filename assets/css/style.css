@@ -10,6 +10,17 @@
     color: #111111;
 }
 
+/*custom class for credly link*/
+.customA2 {
+  color: #4a4a4a;
+  font-style: italic;
+}
+
+/*custom class for credly link hover color*/
+.customA2:hover {
+    color: #111111;
+}
+
 /*below body and wrapper mods are needed for sticky footer*/
 body {
   display: flex;
